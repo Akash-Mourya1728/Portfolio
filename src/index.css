@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+
+.glow {
+  box-shadow: 0 0 10px #8b5cf6, 0 0 20px #8b5cf6;
+}
+
+.glow:hover {
+  box-shadow: 0 0 20px #a855f7, 0 0 40px #a855f7;
+}
