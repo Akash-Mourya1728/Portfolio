@@ -14,7 +14,7 @@ const About = () => {
         transition={{ duration: 1 }}
       >
         <img
-          src="/Screenshot 2024-11-03 130046.jpg"
+          src="public/Screenshot 2024-11-03 130046.jpg"
           className="w-72 rounded-xl glow"
         />
       </motion.div>
