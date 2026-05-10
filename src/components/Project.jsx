@@ -7,18 +7,18 @@ const Project = () => {
     {
       title: "Modern Portfoilo",
       des: "React + Tailwind css portfoilo website",
-      image: "/Screenshot 2026-05-07 155213.png",
+      image: "/Screenshot-2026-05-07-155213.png",
     },
     {
       title: "Obeys.Agency Clone",
       des: "Build clone of Obeys.Agency using Js, Gsap, Locomotive, Sheryijs",
-      image: "/Screenshot 2026-05-07 154956.png",
+      image: "Screenshot-2026-05-07-154956.png",
     },
 
     {
       title: "Dashboard UI",
       des: "Analytics admin dashboard",
-      image: "/Screenshot 2025-09-25 003416.png",
+      image: "Screenshot-2026-05-07-155213.png",
     },
   ];
 

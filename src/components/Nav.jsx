@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Resume from "../assets/Resume.pdf"
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-black/90 backdrop-blur-md text-white">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-black/40 backdrop-blur-md text-white">
       <div className="flex items-center justify-between px-5 md:px-10 py-5">
         {/* Left Side */}
         <div className="flex items-center justify-between w-full md:w-auto">
@@ -55,6 +56,15 @@ const Nav = () => {
           >
             Contact
           </a>
+
+          <a
+            href= {Resume}
+            download
+            className="px-5 py-2 bg-purple-600 rounded-lg"
+          >
+            Download Resume
+          </a>
+
         </div>
 
         {/* Resume Button */}
@@ -89,7 +99,7 @@ const Nav = () => {
           </a>
 
           <a
-            href="/Resume.pdf"
+            href= {Resume}
             download
             className="px-5 py-2 bg-purple-600 rounded-lg"
           >

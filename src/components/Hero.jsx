@@ -95,7 +95,7 @@ const Hero = () => {
         <div className="w-72 h-72 bg-purple-500 blur-[120px] absolute"></div>
 
         <img
-          className="w-60 md:w-80 lg:w-96 relative z-10"
+          className="w-60 rounded-lg glow md:w-80 lg:w-96 relative z-10"
           src={profile}
           alt="hero"
         />
