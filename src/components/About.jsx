@@ -15,7 +15,7 @@ const About = () => {
         className="flex justify-center"
       >
         <img
-          src="/profile.jpg"
+          src="Screenshot 2025-02-15 140526.png"
           alt="profile"
           className="w-60 md:w-72 lg:w-80 rounded-2xl glow object-cover"
         />

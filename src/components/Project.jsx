@@ -7,18 +7,24 @@ const Project = () => {
     {
       title: "Modern Portfoilo",
       des: "React + Tailwind css portfoilo website",
-      image: "/Screenshot-2026-05-07-155213.png",
+      image: "Screenshot-2026-05-07-155213.png",
+      live_demo: "https://akash-mourya1728.github.io/Portfolio/ ",
+      github: "https://github.com/Akash-Mourya1728/Portfolio.git",
     },
     {
       title: "Obeys.Agency Clone",
       des: "Build clone of Obeys.Agency using Js, Gsap, Locomotive, Sheryijs",
       image: "Screenshot-2026-05-07-154956.png",
+      live_demo: "https://akash-mourya1728.github.io/obeys-pr/",
+      github: "https://github.com/Akash-Mourya1728/obeys-pr.git ",
     },
 
     {
-      title: "Dashboard UI",
-      des: "Analytics admin dashboard",
-      image: "Screenshot-2026-05-07-155213.png",
+      title: "User Found On GitHub",
+      des: "Githud User Finder dashboard",
+      image: "Screenshot 2026-05-14 211818.png",
+      live_demo: "https://akash-mourya1728.github.io/GitHub-User-Finder/ ",
+      github: " https://github.com/Akash-Mourya1728/GitHub-User-Finder.git",
     },
   ];
 
@@ -76,7 +82,7 @@ const Project = () => {
                 <div className="flex flex-wrap gap-4 mt-5">
                   <a
                     className="px-4 py-2 rounded-lg bg-purple-500 hover:scale-105 transition glow"
-                    href="https://akash-mourya1728.github.io/obeys-pr/"
+                    href= {project.live_demo}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -85,7 +91,7 @@ const Project = () => {
 
                   <a
                     className="flex gap-2 items-center hover:text-purple-400 border-2 px-4 py-2 border-purple-600 rounded-lg glow hover:scale-105 transition"
-                    href="http://github.com/Akash-Mourya1728"
+                    href= {project.github}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -93,6 +99,9 @@ const Project = () => {
                     <FaGithub />
                   </a>
                 </div>
+
+              
+
               </div>
             </motion.div>
           );
