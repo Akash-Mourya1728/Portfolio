@@ -1,20 +1,23 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import project1 from "../assets/Screenshot-2026-05-07-155213.png";
+import project2 from "../assets/Screenshot-2026-05-07-154956.png";
+import project3 from "../assets/Screenshot 2026-05-14 211818.png";
 
 const Project = () => {
   const project = [
     {
       title: "Modern Portfoilo",
       des: "React + Tailwind css portfoilo website",
-      image: "Screenshot-2026-05-07-155213.png",
+      image: project1,
       live_demo: "https://akash-mourya1728.github.io/Portfolio/ ",
       github: "https://github.com/Akash-Mourya1728/Portfolio.git",
     },
     {
       title: "Obeys.Agency Clone",
       des: "Build clone of Obeys.Agency using Js, Gsap, Locomotive, Sheryijs",
-      image: "Screenshot-2026-05-07-154956.png",
+      image: project2,
       live_demo: "https://akash-mourya1728.github.io/obeys-pr/",
       github: "https://github.com/Akash-Mourya1728/obeys-pr.git ",
     },
@@ -22,7 +25,7 @@ const Project = () => {
     {
       title: "User Found On GitHub",
       des: "Githud User Finder dashboard",
-      image: "Screenshot 2026-05-14 211818.png",
+      image: project3,
       live_demo: "https://akash-mourya1728.github.io/GitHub-User-Finder/ ",
       github: " https://github.com/Akash-Mourya1728/GitHub-User-Finder.git",
     },

@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
-import Resume from "../assets/Resume.pdf";
+import Resume from "../assets/resume4.pdf";
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
